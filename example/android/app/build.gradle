@@ -26,8 +26,8 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    compileSdkVersion 33
-
+    compileSdkVersion 34
+    namespace = 'br.com.keyboard_utils_example'
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
